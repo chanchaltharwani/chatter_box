@@ -38,12 +38,24 @@ dependencies:
   firebase_core: ^2.15.1
   firebase_auth: ^4.7.3
   cloud_firestore: ^4.8.5
+  google_sign_in: ^6.1.4
+  # for showing emoji
+  emoji_picker_flutter: ^1.6.1
+
+  # for showing network image
+  cached_network_image: ^3.2.3
+  # image picker
+  image_picker: ^1.0.2
+  # for accessing firebase storage (for image uploading)
+  firebase_storage: ^11.2.6
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_launcher_icons: "^0.13.1"
+  logger: ^2.0.1
 
 flutter_launcher_icons:
   android: "ic_launcher"
